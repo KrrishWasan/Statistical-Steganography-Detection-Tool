@@ -9,12 +9,17 @@ The system analyzes pixel-level statistical deviations introduced by hidden data
 **⚙️ Techniques Used**
 
 **=>** Pixel Intensity Histogram Analysis
+
 **=>** Even–Odd LSB Distribution Test
+
 **=>** LSB Entropy Measurement
+
 **=>** Image Complexity Awareness (Texture & Color Diversity)
+
 **=>** Suspicion Scoring Engine
 
 **Detection Pipeline**
+
 Image → Histogram → Even-Odd Test → LSB Entropy → Complexity Check → Suspicion Score → Verdict
 
 **📊 Key Concept**
